@@ -1,0 +1,34 @@
+name: track_it_ride
+description: "A new Flutter project."
+publish_to: 'none' # This indicates the package is not intended for publishing.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0" # Ensures compatibility with the Dart SDK version.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Dependencies for the project
+  cupertino_icons: ^1.0.8                     # iOS-specific icons
+  firebase_core: ^3.7.0                       # Core Firebase SDK
+  firebase_auth: ^5.1.1                       # Firebase Authentication
+  cloud_firestore: ^5.1.0                     # Firestore for database interactions
+  google_sign_in: ^6.2.2                      # Google Sign-In for authentication
+  geolocator: ^13.0.1                         # Location tracking for GPS
+  google_maps_flutter: ^2.3.0                 # Google Maps for UI
+  flutter_local_notifications: ^13.0.0        # Notifications for proximity alerts
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter                               # Testing framework
+  flutter_lints: ^4.0.0                        # Ensures linting and code style
+
+flutter:
+  uses-material-design: true
+
+  # Include your assets folder here
+  assets:
+    - assets/images/                           # Ensure this directory exists in your project

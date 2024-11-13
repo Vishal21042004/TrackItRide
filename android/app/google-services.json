@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "848156040550",
+    "project_id": "trackitride",
+    "storage_bucket": "trackitride.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848156040550:android:75cd7ad2c5b9114f89fca7",
+        "android_client_info": {
+          "package_name": "com.example.track_it_ride"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvnqRlr6rryWZEuzPhPuYO06mb26kEqks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
